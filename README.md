@@ -4,6 +4,7 @@ The Discord Bot helping power my community Discord server.
 
 Powered by:
 
+- TypeScript
 - Bun
 - Discord.js
 - ESLint
