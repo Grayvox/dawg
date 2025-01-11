@@ -6,6 +6,7 @@
     "eslint": "^9.17.0"
   },
   "scripts": {
-    "live": "bun --env-file=config/.env src/index.ts"
+    "live": "bun --env-file=config/.env src/index.ts",
+    "reload": "bun --env-file=config/.env src/deploy.ts"
   }
 }
