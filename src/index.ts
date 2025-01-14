@@ -17,7 +17,6 @@ const commandFiles = fs.readdirSync(commandsPath);
 for (const commandFile of commandFiles) {
 	  const filePath = path.join(commandsPath, commandFile);
 	  const command = (await import(filePath)).default;
-	  console.log(command);
 	  if ('data' in command && 'execute' in command) {
 	  	  client.commands.set(command.data.name, command);
 	  } else {

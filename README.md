@@ -12,10 +12,19 @@ Powered by:
 
 ## To Do List
 
-- [ ] `/rules` Command
-- [ ] `/announce` Command
+- [x] `/rules` Command
+- [ ] `/pet` Command
 - [ ] `/schedule` Command
-- [ ] The Funky Commands:
-  - [ ] `/whydoesthisexist`
+- [ ] `/live` Command
+- [ ] `/stable` Project Command
+- [ ] `/blog` Command
+- [ ] `/links` Command
+- [ ] `/streaming` Command
+- [ ] `/videos` Command
+- [ ] `/whydoesthisexist` Funky Command
 - [ ] Automatic updates for YouTube and Twitch
 - [ ] Automatic announcement for my blog
+
+## Considering
+
+- [ ] `/reminder`Command
