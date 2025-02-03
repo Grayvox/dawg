@@ -1,4 +1,4 @@
-import { CommandInteraction, SlashCommandBuilder } from "discord.js";
+import { CommandInteraction, PermissionFlagsBits, SlashCommandBuilder } from "discord.js";
 import { createSchedule } from "../embeds/schedule";
 
 export default {
@@ -81,7 +81,8 @@ export default {
                 { name: 'Early', value: '<t:1733680800:t>' },
                 { name: 'None', value: '*crickets*' }
             )
-        ),        
+        )
+        .setDefaultMemberPermissions(PermissionFlagsBits.ManageChannels),        
     async execute(interaction: CommandInteraction) {
         const sun = interaction.options.get('sunday');
         const mon = interaction.options.get('monday');

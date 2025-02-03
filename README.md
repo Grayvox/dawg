@@ -15,7 +15,7 @@ Powered by:
 - [x] `/rules` Command
 - [x] `/pet` Command
 - [x] `/schedule` Command
-- [ ] `/live` Command
+- [x] `/live` Command
 - [ ] `/stable` Project Command
 - [ ] `/blog` Command
 - [ ] `/links` Command
