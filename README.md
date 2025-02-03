@@ -13,8 +13,8 @@ Powered by:
 ## To Do List
 
 - [x] `/rules` Command
-- [ ] `/pet` Command
-- [ ] `/schedule` Command
+- [x] `/pet` Command
+- [x] `/schedule` Command
 - [ ] `/live` Command
 - [ ] `/stable` Project Command
 - [ ] `/blog` Command

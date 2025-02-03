@@ -27,7 +27,7 @@ const rest = new REST().setToken(token as string);
 		console.log(`Started refreshing ${commands.length} application (/) commands.`);
 
 		await rest.put(
-			Routes.applicationGuildCommands(clientId as string, labId as string),
+			Routes.applicationCommands(clientId as string),
 			{ body: commands },
 		);
 

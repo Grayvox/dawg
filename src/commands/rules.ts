@@ -8,8 +8,7 @@ export default {
         .addIntegerOption(number => number
             .setName('number')
             .setDescription('Which rule to send')
-            .setRequired(true)
-        .setAutocomplete(true))
+            .setRequired(true))
         .setDefaultMemberPermissions(PermissionFlagsBits.ManageChannels),
     async execute(interaction: CommandInteraction) {
         const number = interaction.options.get('number');

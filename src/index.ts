@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const token = process.env['BOT_TOKEN'];
-const client = new Client({ intents: [GatewayIntentBits.Guilds] }) as Client<boolean>;
+const client = new Client({ intents: [GatewayIntentBits.Guilds], allowedMentions: { parse: ['roles'] } }) as Client<boolean>;
 
 client.once(Events.ClientReady, readyClient => {
 	console.log(`Dawg is alive! Logged in as ${readyClient.user.tag}`);
