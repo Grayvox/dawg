@@ -12,7 +12,7 @@ Powered by:
 
 ## To Do List
 
-- [ ] `/help` Command
+- [x] `/help` Command
 - [x] `/rules` Command
 - [x] `/pet` Command
 - [x] `/schedule` Command
