@@ -14,7 +14,7 @@ export default {
             .setDescription('Later Topic')
             .setRequired(true)
         )
-        .setDefaultMemberPermissions(PermissionFlagsBits.ManageChannels),        
+        .setDefaultMemberPermissions(PermissionFlagsBits.ManageChannels),     
     async execute(interaction: CommandInteraction) {
         const currentTopic = interaction.options.get('current_topic')?.value;
         const laterTopic = interaction.options.get('later_topic')?.value;

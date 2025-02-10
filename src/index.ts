@@ -14,6 +14,7 @@ client.commands = new Collection();
 const commandsPath = path.join(__dirname, 'commands');
 const commandFiles = fs.readdirSync(commandsPath);
 
+
 for (const commandFile of commandFiles) {
 	  const filePath = path.join(commandsPath, commandFile);
 	  const command = (await import(filePath)).default;

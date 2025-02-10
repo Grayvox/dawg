@@ -12,19 +12,20 @@ Powered by:
 
 ## To Do List
 
+- [ ] `/help` Command
 - [x] `/rules` Command
 - [x] `/pet` Command
 - [x] `/schedule` Command
 - [x] `/live` Command
-- [ ] `/stable` Project Command
+- [x] `/stable` Project Command
 - [ ] `/blog` Command
 - [ ] `/links` Command
 - [ ] `/streaming` Command
 - [ ] `/videos` Command
 - [ ] `/whydoesthisexist` Funky Command
-- [ ] Automatic updates for YouTube and Twitch
-- [ ] Automatic announcement for my blog
 
 ## Considering
 
 - [ ] `/reminder`Command
+- [ ] Automatic updates for YouTube and Twitch
+- [ ] Automatic announcement for my blog

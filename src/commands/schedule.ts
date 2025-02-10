@@ -9,78 +9,36 @@ export default {
             .setName('sunday')
             .setDescription('Sunday')
             .setRequired(true)
-            .addChoices(
-                { name: 'Regular', value: '<t:1733691600:t>' },
-                { name: 'Late', value: '<t:1733709600:t>' },
-                { name: 'Early', value: '<t:1733680800:t>' },
-                { name: 'None', value: '*crickets*' }
-            )
         )
         .addStringOption(monday => monday
             .setName('monday')
             .setDescription('Monday')
             .setRequired(true)
-            .addChoices(
-                { name: 'Regular', value: '<t:1733691600:t>' },
-                { name: 'Late', value: '<t:1733709600:t>' },
-                { name: 'Early', value: '<t:1733680800:t>' },
-                { name: 'None', value: '*crickets*' }
-            )
         )
         .addStringOption(tuesday => tuesday
             .setName('tuesday')
             .setDescription('Tuesday')
             .setRequired(true)
-            .addChoices(
-                { name: 'Regular', value: '<t:1733691600:t>' },
-                { name: 'Late', value: '<t:1733709600:t>' },
-                { name: 'Early', value: '<t:1733680800:t>' },
-                { name: 'None', value: '*crickets*' }
-            )
         )
         .addStringOption(wednesday => wednesday
             .setName('wednesday')
             .setDescription('Wednesday')
             .setRequired(true)
-            .addChoices(
-                { name: 'Regular', value: '<t:1733691600:t>' },
-                { name: 'Late', value: '<t:1733709600:t>' },
-                { name: 'Early', value: '<t:1733680800:t>' },
-                { name: 'None', value: '*crickets*' }
-            )
         )
         .addStringOption(thursday => thursday
             .setName('thursday')
             .setDescription('Thursday')
             .setRequired(true)
-            .addChoices(
-                { name: 'Regular', value: '<t:1733691600:t>' },
-                { name: 'Late', value: '<t:1733709600:t>' },
-                { name: 'Early', value: '<t:1733680800:t>' },
-                { name: 'None', value: '*crickets*' }
-            )
         )
         .addStringOption(friday => friday
             .setName('friday')
             .setDescription('Friday')
             .setRequired(true)
-            .addChoices(
-                { name: 'Regular', value: '<t:1733691600:t>' },
-                { name: 'Late', value: '<t:1733709600:t>' },
-                { name: 'Early', value: '<t:1733680800:t>' },
-                { name: 'None', value: '*crickets*' }
-            )
         )
         .addStringOption(saturday => saturday
             .setName('saturday')
             .setDescription('Saturday')
             .setRequired(true)
-            .addChoices(
-                { name: 'Regular', value: '<t:1733691600:t>' },
-                { name: 'Late', value: '<t:1733709600:t>' },
-                { name: 'Early', value: '<t:1733680800:t>' },
-                { name: 'None', value: '*crickets*' }
-            )
         )
         .setDefaultMemberPermissions(PermissionFlagsBits.ManageChannels),        
     async execute(interaction: CommandInteraction) {
@@ -101,8 +59,7 @@ export default {
             fri?.value as string,
             sat?.value as string
         ]);
-        await interaction.reply("<@&1324530658084786257>");
-        await interaction.followUp({ embeds: [schedule] });
+        await interaction.reply({ content: "<@&1324530658084786257>", embeds: [schedule] });
 
         // <@&1324530658084786257> is the Stream Gang role
     }
