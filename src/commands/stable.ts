@@ -5,7 +5,7 @@ import { projects } from "../embeds/projects";
 export default {
     data: new SlashCommandBuilder()
         .setName('stable')
-        .setDescription('Learn about one of my projects, stable.dev!'),
+        .setDescription("Learn about one of Gray's projects, stable.dev!"),
     async execute(interaction: CommandInteraction) {
         interaction.reply({ embeds: [projects.stable] })
     }

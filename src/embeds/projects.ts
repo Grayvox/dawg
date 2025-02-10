@@ -22,6 +22,4 @@ export const projects = {
         `)
     .setImage('https://i.postimg.cc/C5gwPQ9x/image-2025-02-10-171623652.png')
     .setThumbnail('https://i.postimg.cc/QxjXcvp6/image-2025-02-10-171710867.png')
-    .setTimestamp()
-    .setFooter({ text: 'For the week of...' })
 }

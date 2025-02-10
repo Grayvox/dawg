@@ -18,8 +18,8 @@ Powered by:
 - [x] `/schedule` Command
 - [x] `/live` Command
 - [x] `/stable` Project Command
-- [ ] `/blog` Command
-- [ ] `/links` Command
+- [x] `/blog` Command
+- [x] `/links` Command
 - [ ] `/streaming` Command
 - [ ] `/videos` Command
 - [ ] `/whydoesthisexist` Funky Command
